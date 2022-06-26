@@ -21,10 +21,12 @@
     background-color: rgb(59, 158, 238);
     }
 
+
 .flex-content {
     display:flex;
     flex-direction:column;
 }
+
 .image-placeholder {
     border: 1px solid black;
     height: 250px;
@@ -34,11 +36,10 @@
 
 .flex-container-random-info {
     display: flex;  
-    background-color: lightgreen;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
-    flex-flow: row wrap;
+    background-color: lightgreen;
 }
 
 .flex-container-testimonial {
@@ -52,11 +53,11 @@
 }
 
 .flex-container-call {
-    background-color: lightblue;
     display: flex;
-    height: 150px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    height: 150px;
+    background-color: lightblue;
 }
 
 .button {
@@ -66,10 +67,13 @@
 
 .box {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 500px;
+    text-align: center;
  
 }
