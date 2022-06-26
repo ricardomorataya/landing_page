@@ -8,13 +8,16 @@
 
 .flex-container-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: raw;
     background-color: rgb(59, 158, 238);
 }
 
 .image-placeholder {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 250px;
+    width: 350px; 
 }
 
 
