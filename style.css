@@ -1,13 +1,22 @@
-.flex-container {
+.flex-container-header {
     display: flex;
     background-color: beige;
     justify-content: space-around;
     align-items: center;
+    
 }
 
-.p-header {
+.flex-container-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 158, 238);
+}
 
-   }
+.image-placeholder {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .flex-container-random-info {
     display: flex;  
@@ -37,7 +46,8 @@
 }
 
 .button {
-    height: 75px;
+    height: 70px;
+    width: 100px;
 }
 
 .box {
