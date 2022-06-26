@@ -1,10 +1,25 @@
 .flex-container {
-    background-color: beige;
-    padding: 10px;
     display: flex;
+    background-color: beige;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .p-header {
-    padding: 5px;
-    margin: 10px;
+
+   }
+
+.flex-container-random-info {
+    display: flex;  
+    background-color: lightgreen;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-container-testimonial {
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
 }
