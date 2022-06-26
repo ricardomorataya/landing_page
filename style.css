@@ -1,0 +1,10 @@
+.flex-container {
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+}
+
+.p-header {
+    padding: 5px;
+    margin: 10px;
+}
