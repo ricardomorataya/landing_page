@@ -1,8 +1,8 @@
 .flex-container {
     display: flex;
     background-color: beige;
-    flex-flow: raw wrap;    
     justify-content: space-around;
+    align-items: center;
 }
 
 .p-header {
@@ -13,7 +13,9 @@
     display: flex;  
     background-color: lightgreen;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .flex-container-testimonial {
@@ -36,4 +38,14 @@
 
 .button {
     height: 75px;
+}
+
+.box {
+    display: flex;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+ 
 }
