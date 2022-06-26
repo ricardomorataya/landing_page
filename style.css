@@ -1,8 +1,8 @@
 .flex-container {
     display: flex;
     background-color: beige;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: raw wrap;    
+    justify-content: space-around;
 }
 
 .p-header {
@@ -20,6 +20,20 @@
     background-color:lightgray;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px;
     flex-direction: column;
+
+}
+
+.flex-container-call {
+    background-color: lightblue;
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    height: 75px;
 }
