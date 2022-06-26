@@ -1,20 +1,25 @@
 .flex-container-header {
     display: flex;
-    background-color: beige;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+    background-color: beige;
     
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
 
 .flex-container-content{
     display: flex;
-    flex-direction: raw;
-    height: 400px;
-    width: auto;
-    background-color: rgb(59, 158, 238);
-    justify-content: center;
     align-items: center;
-}
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgb(59, 158, 238);
+    }
 
 .flex-content {
     display:flex;
