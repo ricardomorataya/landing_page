@@ -9,12 +9,18 @@
 .flex-container-content{
     display: flex;
     flex-direction: raw;
+    height: 400px;
+    width: auto;
     background-color: rgb(59, 158, 238);
+    justify-content: center;
+    align-items: center;
 }
 
+.flex-content {
+    display:flex;
+    flex-direction:column;
+}
 .image-placeholder {
-    display: flex;
-    flex-direction: row;
     border: 1px solid black;
     height: 250px;
     width: 350px; 
