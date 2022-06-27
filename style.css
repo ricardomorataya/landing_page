@@ -1,10 +1,13 @@
+.body {
+    background-color: black;
+}
+/*Header Section*/
 .flex-container-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 25px 0px 25px;
     background-color: beige;
-    
 }
 
 .div-header {
@@ -13,6 +16,7 @@
     width: 500px;
 }
 
+/*Section I*/
 .flex-container-content{
     display: flex;
     align-items: center;
@@ -33,7 +37,7 @@
     width: 350px; 
 }
 
-
+/*Section II*/
 .flex-container-random-info {
     display: flex;  
     flex-direction: column;
@@ -71,7 +75,12 @@
     justify-content: space-between;
     }
 
+    .text {
+        width: 145px;
+        margin: 10px;
+    }
 
+/*Section III*/    
 .flex-container-testimonial {
     display: flex;
     align-items: center;
@@ -95,6 +104,7 @@
     padding-left: 350px;
     }
 
+/*Section IV*/    
 .flex-container-call {
     display: flex;
     justify-content: space-between;
@@ -122,7 +132,3 @@
 
 
 
-.text {
-    width: 145px;
-    margin: 10px;
-}
