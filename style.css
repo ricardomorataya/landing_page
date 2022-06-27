@@ -38,9 +38,39 @@
     display: flex;  
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    height: 550px;
     background-color: lightgreen;
+    padding: 30px;
 }
+
+
+.box-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 120px;
+    width: 150px; 
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.text-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
 
 .flex-container-testimonial {
     background-color:lightgray;
@@ -57,23 +87,17 @@
     justify-content: center;
     align-items: center;
     height: 150px;
+    width: 100%;
     background-color: lightblue;
 }
+
 
 .button {
     height: 70px;
     width: 100px;
 }
 
-.box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 10px;
-    height: 120px;
-    width: 500px;
-    text-align: center;
- 
+.text {
+    width: 145px;
+    margin: 10px;
 }
